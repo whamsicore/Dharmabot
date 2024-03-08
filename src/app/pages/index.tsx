@@ -6,7 +6,7 @@ import {
 import { CopilotSidebar } from "@copilotkit/react-ui";
 import { useState } from "react";
 import "./styles.css";
-import { Presentation } from "./components/Presentation";
+import { Presentation } from "../components/Presentation";
 
 export default function AIPresentation() {
   const [chatInProgress, setChatInProgress] = useState(false);

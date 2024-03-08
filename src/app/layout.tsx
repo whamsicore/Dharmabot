@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+// Removed the import of Inter from "next/font/google" due to the error with ES modules.
 import "./globals.css";
 import "@copilotkit/react-ui/styles.css";
 import "@copilotkit/react-textarea/styles.css";
 
-const inter = Inter({ subsets: ["latin"] });
+// Removed the usage of Inter for font due to the error with ES modules.
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -18,7 +18,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      {/* Removed the className={inter.className} due to the removal of Inter font import */}
+      <body>{children}</body>
     </html>
   );
 }

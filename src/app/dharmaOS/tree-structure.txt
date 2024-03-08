@@ -1,0 +1,28 @@
+/Users/paytonlee/Developer/Github/Dharmabot/src/app
+├── api
+│   ├── copilotkit
+│   │   ├── research.ts
+│   │   └── route.ts
+│   └── tts
+│       └── route.ts
+├── components
+│   ├── ActionButton.tsx
+│   ├── DharmaCanvas.tsx
+│   ├── Presentation.tsx
+│   └── Slide.tsx
+├── dharmaOS
+│   ├── array.json
+│   ├── awareness.json
+│   ├── gpt-instructions.md
+│   ├── scripts.mjs
+│   └── server-actions.json
+├── favicon.ico
+├── globals.css
+├── layout.tsx
+├── page.tsx
+├── sandbox.tsx
+├── styles.css
+└── utils
+    └── globalAudio.tsx
+
+7 directories, 19 files

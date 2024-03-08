@@ -19,11 +19,11 @@ import { resetGlobalAudio, speak } from "../utils/globalAudio";
 import { ActionButton } from "./ActionButton";
 import { SlideModel, Slide } from "./Slide";
 
-export const Presentation = ({ chatInProgress }: { chatInProgress: boolean; }) => {
+export const DharmaCanvas = ({ chatInProgress }: { chatInProgress: boolean; }) => {
   
   const [slides, setSlides] = useState<SlideModel[]>([
     {
-      title: `Welcome to our presentation!`,
+      title: `Welcome to our dharma!`,
       content: 'This is the first slide.',
       backgroundImageDescription: "hello",
       spokenNarration: "This is the first slide. Welcome to our presentation!",

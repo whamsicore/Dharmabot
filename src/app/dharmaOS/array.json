@@ -1,0 +1,7 @@
+{
+    "random_words": {
+        "animals": ["elephant", "tiger", "penguin"],
+        "colors": ["blue", "green", "red"],
+        "people": ["Leonardo da Vinci", "Marie Curie", "Nelson Mandela"]
+    }
+}

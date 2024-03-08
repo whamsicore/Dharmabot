@@ -1,0 +1,5 @@
+{
+  "_comment": "The objective of this service script is to define commands that can be executed.",
+  "terminal_command": "tree src/app",
+  "update-directory-tree": "sudo tree ./src/app"
+}

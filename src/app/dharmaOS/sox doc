@@ -1,0 +1,933 @@
+➜  Dharmaverse git:(master) ✗ fish
+Welcome to fish, the friendly interactive shell
+Type help for instructions on how to use fish
+paytonlee@Whamsibook ~/D/G/Dharmaverse (master)> cd ..
+paytonlee@Whamsibook ~/D/Github> ls
+(learning)	(legacy)	Chancegamer.io	Chronoverse-v2	Dharmaverse	Metabeing v1	medium-clone	nobelium	paulo-script		react-notion-x
+paytonlee@Whamsibook ~/D/Github> git clone git@github.com:whamsicore/aipoweredpresentation.git
+Cloning into 'aipoweredpresentation'...
+remote: Enumerating objects: 42, done.
+remote: Counting objects: 100% (42/42), done.
+remote: Compressing objects: 100% (30/30), done.
+remote: Total 42 (delta 6), reused 42 (delta 6), pack-reused 0
+Receiving objects: 100% (42/42), 85.51 KiB | 397.00 KiB/s, done.
+Resolving deltas: 100% (6/6), done.
+paytonlee@Whamsibook ~/D/Github> cd aipoweredpresentation/
+paytonlee@Whamsibook ~/D/G/aipoweredpresentation (master)> ls
+README.md		package-lock.json	postcss.config.js	src			tsconfig.json
+next.config.mjs		package.json		public			tailwind.config.ts
+paytonlee@Whamsibook ~/D/G/aipoweredpresentation (master)> npm run dev
+fish: Unknown command: npm
+paytonlee@Whamsibook ~/D/G/aipoweredpresentation (master) [127]> pnpm run dev
+
+> aipoweredpresentation@0.1.0 dev /Users/paytonlee/Developer/Github/aipoweredpresentation
+> next dev
+
+sh: next: command not found
+ ELIFECYCLE  Command failed.
+ WARN   Local package.json exists, but node_modules missing, did you mean to install?
+paytonlee@Whamsibook ~/D/G/aipoweredpresentation (master) [1]> pnpm i
+
+   ╭──────────────────────────────────────────────────────────────────╮
+   │                                                                  │
+   │                Update available! 8.3.1 → 8.15.4.                 │
+   │   Changelog: https://github.com/pnpm/pnpm/releases/tag/v8.15.4   │
+   │         Run a script from: https://pnpm.io/installation          │
+   │                                                                  │
+   │      Follow @pnpmjs for updates: https://twitter.com/pnpmjs      │
+   │                                                                  │
+   ╰──────────────────────────────────────────────────────────────────╯
+
+Downloading registry.npmjs.org/typescript/5.0.2: 7.05 MB/7.05 MB, done
+Packages: +537
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Packages are hard linked from the content-addressable store to the virtual store.
+  Content-addressable store is at: /Users/paytonlee/Library/pnpm/store/v3
+  Virtual store is at:             node_modules/.pnpm
+Downloading registry.npmjs.org/next/14.1.0: 20.8 MB/20.8 MB, done
+Downloading registry.npmjs.org/@next/swc-darwin-arm64/14.1.0: 34.5 MB/34.5 MB, done
+Progress: resolved 545, reused 312, downloaded 225, added 537, done
+
+dependencies:
++ @copilotkit/backend 0.4.0-mme-pre-16-02-2024.4 (0.4.1 is available)
++ @copilotkit/react-core 0.20.0-mme-pre-16-02-2024.3 (0.20.1 is available)
++ @copilotkit/react-ui 0.17.0-mme-pre-16-02-2024.3 (0.17.1 is available)
++ @copilotkit/shared 0.4.0-mme-pre-16-02-2024.3 (0.4.1 is available)
++ next 14.1.0
++ preline 2.0.3
++ react 18.0.0 (18.2.0 is available)
++ react-dom 18.0.0 (18.2.0 is available)
++ react-markdown 8.0.7
+
+devDependencies:
++ @types/node 20.0.0 (20.9.1 is available)
++ @types/react 18.0.0 (18.2.20 is available)
++ @types/react-dom 18.0.0 (18.2.19 is available)
++ autoprefixer 10.0.1 (10.4.15 is available)
++ eslint 8.0.0 (8.47.0 is available)
++ eslint-config-next 14.1.0
++ postcss 8.0.0 (8.4.28 is available)
++ tailwindcss 3.3.0 (3.3.3 is available)
++ typescript 5.0.2 (5.1.6 is available)
+
+ WARN  Issues with peer dependencies found
+.
+├─┬ autoprefixer 10.0.1
+│ └── ✕ unmet peer postcss@^8.1.0: found 8.0.0
+├─┬ tailwindcss 3.3.0
+│ ├── ✕ unmet peer postcss@^8.0.9: found 8.0.0
+│ ├─┬ postcss-js 4.0.1
+│ │ └── ✕ unmet peer postcss@^8.4.21: found 8.0.0
+│ ├─┬ postcss-load-config 3.1.4
+│ │ └── ✕ unmet peer postcss@>=8.0.9: found 8.0.0
+│ └─┬ postcss-nested 6.0.0
+│   └── ✕ unmet peer postcss@^8.2.14: found 8.0.0
+├─┬ @copilotkit/react-core 0.20.0-mme-pre-16-02-2024.3
+│ └── ✕ unmet peer react@^18.2.0: found 18.0.0
+├─┬ @copilotkit/react-ui 0.17.0-mme-pre-16-02-2024.3
+│ └── ✕ unmet peer react@^18.2.0: found 18.0.0
+└─┬ next 14.1.0
+  ├── ✕ unmet peer react@^18.2.0: found 18.0.0
+  └── ✕ unmet peer react-dom@^18.2.0: found 18.0.0
+
+The integrity of 4603 files was checked. This might have caused installation to take longer.
+Done in 1m 21.3s
+paytonlee@Whamsibook ~/D/G/aipoweredpresentation (master)> pnpm run dev
+
+> aipoweredpresentation@0.1.0 dev /Users/paytonlee/Developer/Github/aipoweredpresentation
+> next dev
+
+ ⚠ Port 3000 is in use, trying 3001 instead.
+ ⚠ Port 3001 is in use, trying 3002 instead.
+   ▲ Next.js 14.1.0
+   - Local:        http://localhost:3002
+
+   Downloading swc package @next/swc-darwin-x64...
+ ✓ Ready in 30.3s
+ ○ Compiling / ...
+ ✓ Compiled / in 4.2s (515 modules)
+Warning: Invalid DOM property `stroke-width`. Did you mean `strokeWidth`?
+    at svg
+    at a
+    at LinkComponent (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/link.js:105:19)
+    at Lazy
+    at div
+    at div
+    at div
+    at div
+    at InnerLayoutRouter (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/layout-router.js:241:11)
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/redirect-boundary.js:72:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/redirect-boundary.js:80:11)
+    at NotFoundErrorBoundary (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/layout-router.js:333:11)
+    at ErrorBoundary (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/error-boundary.js:159:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/layout-router.js:152:9)
+    at ScrollAndFocusHandler (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/layout-router.js:227:11)
+    at RenderFromTemplateContext (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at Lazy
+    at OuterLayoutRouter (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/layout-router.js:351:11)
+    at Lazy
+    at body
+    at html
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/redirect-boundary.js:72:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/redirect-boundary.js:80:11)
+    at ReactDevOverlay (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/react-dev-overlay/internal/ReactDevOverlay.js:84:9)
+    at HotReload (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/react-dev-overlay/hot-reloader-client.js:308:11)
+    at Router (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/app-router.js:176:11)
+    at ErrorBoundaryHandler (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/error-boundary.js:113:9)
+    at ErrorBoundary (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/error-boundary.js:159:11)
+    at AppRouter (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/app-router.js:515:13)
+    at Lazy
+    at Lazy
+    at rS (/Users/paytonlee/Developer/Github/aipoweredpresentation/node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:15614)
+    at rS (/Users/paytonlee/Developer/Github/aipoweredpresentation/node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:15614)
+    at ServerInsertedHTMLProvider (/Users/paytonlee/Developer/Github/aipoweredpresentation/node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:21176)
+Warning: Invalid DOM property `stroke-linecap`. Did you mean `strokeLinecap`?
+    at svg
+    at a
+    at LinkComponent (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/link.js:105:19)
+    at Lazy
+    at div
+    at div
+    at div
+    at div
+    at InnerLayoutRouter (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/layout-router.js:241:11)
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/redirect-boundary.js:72:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/redirect-boundary.js:80:11)
+    at NotFoundErrorBoundary (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/layout-router.js:333:11)
+    at ErrorBoundary (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/error-boundary.js:159:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/layout-router.js:152:9)
+    at ScrollAndFocusHandler (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/layout-router.js:227:11)
+    at RenderFromTemplateContext (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at Lazy
+    at OuterLayoutRouter (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/layout-router.js:351:11)
+    at Lazy
+    at body
+    at html
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/redirect-boundary.js:72:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/redirect-boundary.js:80:11)
+    at ReactDevOverlay (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/react-dev-overlay/internal/ReactDevOverlay.js:84:9)
+    at HotReload (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/react-dev-overlay/hot-reloader-client.js:308:11)
+    at Router (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/app-router.js:176:11)
+    at ErrorBoundaryHandler (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/error-boundary.js:113:9)
+    at ErrorBoundary (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/error-boundary.js:159:11)
+    at AppRouter (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/app-router.js:515:13)
+    at Lazy
+    at Lazy
+    at rS (/Users/paytonlee/Developer/Github/aipoweredpresentation/node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:15614)
+    at rS (/Users/paytonlee/Developer/Github/aipoweredpresentation/node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:15614)
+    at ServerInsertedHTMLProvider (/Users/paytonlee/Developer/Github/aipoweredpresentation/node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:21176)
+Warning: Invalid DOM property `stroke-linejoin`. Did you mean `strokeLinejoin`?
+    at svg
+    at a
+    at LinkComponent (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/link.js:105:19)
+    at Lazy
+    at div
+    at div
+    at div
+    at div
+    at InnerLayoutRouter (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/layout-router.js:241:11)
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/redirect-boundary.js:72:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/redirect-boundary.js:80:11)
+    at NotFoundErrorBoundary (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/layout-router.js:333:11)
+    at ErrorBoundary (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/error-boundary.js:159:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/layout-router.js:152:9)
+    at ScrollAndFocusHandler (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/layout-router.js:227:11)
+    at RenderFromTemplateContext (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at Lazy
+    at OuterLayoutRouter (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/layout-router.js:351:11)
+    at Lazy
+    at body
+    at html
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/redirect-boundary.js:72:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/redirect-boundary.js:80:11)
+    at ReactDevOverlay (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/react-dev-overlay/internal/ReactDevOverlay.js:84:9)
+    at HotReload (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/react-dev-overlay/hot-reloader-client.js:308:11)
+    at Router (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/app-router.js:176:11)
+    at ErrorBoundaryHandler (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/error-boundary.js:113:9)
+    at ErrorBoundary (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/error-boundary.js:159:11)
+    at AppRouter (webpack-internal:///(ssr)/./node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/client/components/app-router.js:515:13)
+    at Lazy
+    at Lazy
+    at rS (/Users/paytonlee/Developer/Github/aipoweredpresentation/node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:15614)
+    at rS (/Users/paytonlee/Developer/Github/aipoweredpresentation/node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:15614)
+    at ServerInsertedHTMLProvider (/Users/paytonlee/Developer/Github/aipoweredpresentation/node_modules/.pnpm/next@14.1.0_react-dom@18.0.0_react@18.0.0/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:21176)
+ ✓ Compiled in 238ms (245 modules)
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 1513ms (520 modules)
+ ○ Compiling /presentation ...
+ ✓ Compiled /presentation in 3.8s (2236 modules)
+ ○ Compiling /api/copilotkit/openai ...
+ ✓ Compiled /api/copilotkit/openai in 1199ms (251 modules)
+ ⨯ node_modules/.pnpm/openai@4.28.4/node_modules/openai/index.js (52:18) @ new OpenAI
+ ⨯ The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' }).
+null
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 997ms (2371 modules)
+ ⨯ node_modules/.pnpm/openai@4.28.4/node_modules/openai/index.js (52:18) @ new OpenAI
+ ⨯ The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' }).
+null
+^C
+⏎                                                                                                                                                                                                                   paytonlee@Whamsibook ~/D/G/aipoweredpresentation (master)> cursor .
+paytonlee@Whamsibook ~/D/G/aipoweredpresentation (master)> cd ..
+paytonlee@Whamsibook ~/D/Github> git clone https://github.com/CopilotKit/presentation-demo.git
+Cloning into 'presentation-demo'...
+remote: Enumerating objects: 58, done.
+remote: Counting objects: 100% (58/58), done.
+remote: Compressing objects: 100% (38/38), done.
+remote: Total 58 (delta 15), reused 55 (delta 12), pack-reused 0
+Receiving objects: 100% (58/58), 116.25 KiB | 901.00 KiB/s, done.
+Resolving deltas: 100% (15/15), done.
+paytonlee@Whamsibook ~/D/Github> cd presentation-demo/
+paytonlee@Whamsibook ~/D/G/presentation-demo (main)> cursor .
+paytonlee@Whamsibook ~/D/G/presentation-demo (main)> cursor .
+paytonlee@Whamsibook ~/D/G/presentation-demo (main)> cd ..
+paytonlee@Whamsibook ~/D/Github> ls
+(learning)		Chronoverse-v2		aipoweredpresentation	paulo-script		viewer
+(legacy)		Dharmaverse		medium-clone		presentation-demo
+Chancegamer.io		Metabeing v1		nobelium		react-notion-x
+paytonlee@Whamsibook ~/D/Github> open .
+paytonlee@Whamsibook ~/D/Github> cd bos\ viewer/
+paytonlee@Whamsibook ~/D/G/bos viewer (master)> ls
+LICENSE			config			package.json		src			yarn.lock
+README.md		functions		public			webpack.config.js
+paytonlee@Whamsibook ~/D/G/bos viewer (master)> pnpm i
+ WARN  deprecated @near-wallet-selector/near-wallet@8.9.2: NEAR Wallet has been deprecated. NEAR Wallet has been removed from the wallet-selector
+
+   ╭──────────────────────────────────────────────────────────────────╮
+   │                                                                  │
+   │                Update available! 8.3.1 → 8.15.4.                 │
+   │   Changelog: https://github.com/pnpm/pnpm/releases/tag/v8.15.4   │
+   │         Run a script from: https://pnpm.io/installation          │
+   │                                                                  │
+   │      Follow @pnpmjs for updates: https://twitter.com/pnpmjs      │
+   │                                                                  │
+   ╰──────────────────────────────────────────────────────────────────╯
+
+Packages are hard linked from the content-addressable store to the virtual store.
+  Content-addressable store is at: /Users/paytonlee/Library/pnpm/store/v3
+  Virtual store is at:             node_modules/.pnpm
+ WARN  deprecated @babel/plugin-proposal-export-namespace-from@7.18.9: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-export-namespace-from instead.
+ WARN  deprecated @babel/plugin-proposal-class-static-block@7.21.0: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-static-block instead.
+ WARN  deprecated @babel/plugin-proposal-async-generator-functions@7.20.7: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-async-generator-functions instead.
+ WARN  deprecated @babel/plugin-proposal-dynamic-import@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-dynamic-import instead.
+ WARN  deprecated @babel/plugin-proposal-class-properties@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-properties instead.
+ WARN  deprecated @babel/plugin-proposal-json-strings@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-json-strings instead.
+ WARN  deprecated @babel/plugin-proposal-nullish-coalescing-operator@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-nullish-coalescing-operator instead.
+ WARN  deprecated @babel/plugin-proposal-logical-assignment-operators@7.20.7: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-logical-assignment-operators instead.
+ WARN  deprecated @babel/plugin-proposal-optional-catch-binding@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-catch-binding instead.
+ WARN  deprecated @babel/plugin-proposal-numeric-separator@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-numeric-separator instead.
+ WARN  deprecated @babel/plugin-proposal-private-property-in-object@7.21.11: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-private-property-in-object instead.
+ WARN  deprecated @babel/plugin-proposal-private-methods@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-private-methods instead.
+ WARN  deprecated @babel/plugin-proposal-object-rest-spread@7.20.7: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-object-rest-spread instead.
+ WARN  deprecated @babel/plugin-proposal-optional-chaining@7.21.0: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-chaining instead.
+ WARN  deprecated @babel/plugin-proposal-unicode-property-regex@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-unicode-property-regex instead.
+ WARN  deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+ WARN  deprecated @walletconnect/client@1.8.0: WalletConnect's v1 SDKs are now deprecated. Please upgrade to a v2 SDK. For details see: https://docs.walletconnect.com/
+ WARN  deprecated @walletconnect/qrcode-modal@1.8.0: WalletConnect's v1 SDKs are now deprecated. Please upgrade to a v2 SDK. For details see: https://docs.walletconnect.com/
+ WARN  deprecated react-uuid@1.0.3: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+ WARN  deprecated @walletconnect/types@1.8.0: WalletConnect's v1 SDKs are now deprecated. Please upgrade to a v2 SDK. For details see: https://docs.walletconnect.com/
+ WARN  deprecated @walletconnect/mobile-registry@1.4.0: Deprecated in favor of dynamic registry available from: https://github.com/walletconnect/walletconnect-registry
+ WARN  deprecated mini-create-react-context@0.4.1: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+ WARN  deprecated eip1193-provider@1.0.1: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+ WARN  deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+ WARN  deprecated @motionone/vue@10.16.4: Motion One for Vue is deprecated. Use Oku Motion instead https://oku-ui.com/motion
+ WARN  deprecated @json-rpc-tools/provider@1.7.6: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+ WARN  deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+ WARN  deprecated source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+ WARN  deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+ WARN  deprecated stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility
+ WARN  deprecated @json-rpc-tools/utils@1.7.6: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+ WARN  deprecated @json-rpc-tools/types@1.7.6: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+Packages: +1483
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Downloading registry.npmjs.org/monaco-editor/0.46.0: 17.3 MB/17.3 MB, done
+Progress: resolved 1515, reused 730, downloaded 752, added 1483, done
+node_modules/.pnpm/es5-ext@0.10.64/node_modules/es5-ext: Running postinstall script...
+node_modules/.pnpm/styled-components@5.3.6_@babel+core@7.15.5_react-dom@18.2.0_react-is@18.2.0_react@18.2.0/node_modules/styled-components: Runode_modules/.pnpm/es5-ext@0.10.64/node_modules/es5-ext: Running postinstall script, done in 276msct@18.2.0/node_modules/styled-components: Running postinstall script, done in 259ms
+node_modules/.pnpm/esbuild@0.19.12/node_modules/esbuild: Running postinstall script, done in 4s
+
+dependencies:
++ @monaco-editor/react 4.4.6 (4.6.0 is available)
++ @near-wallet-selector/core 8.9.2 (8.9.5 is available)
++ @near-wallet-selector/here-wallet 8.9.2 (8.9.5 is available)
++ @near-wallet-selector/meteor-wallet 8.9.2 (8.9.5 is available)
++ @near-wallet-selector/mintbase-wallet 8.9.5
++ @near-wallet-selector/modal-ui 8.9.2 (8.9.5 is available)
++ @near-wallet-selector/my-near-wallet 8.9.2 (8.9.5 is available)
++ @near-wallet-selector/near-wallet 8.9.2 (8.9.3 is available) deprecated
++ @near-wallet-selector/neth 8.9.2 (8.9.5 is available)
++ @near-wallet-selector/nightly 8.9.2 (8.9.5 is available)
++ @near-wallet-selector/sender 8.9.2 (8.9.5 is available)
++ @web3-onboard/core 2.20.2 (2.21.2 is available)
++ @web3-onboard/injected-wallets 2.10.1 (2.10.11 is available)
++ @web3-onboard/ledger 2.4.6 (2.5.2 is available)
++ @web3-onboard/react 2.8.7 (2.8.13 is available)
++ @web3-onboard/walletconnect 2.3.9 (2.5.3 is available)
++ big.js 6.1.1 (6.2.1 is available)
++ bn.js 5.1.1 (5.2.1 is available)
++ bootstrap 5.3.1 (5.3.3 is available)
++ bootstrap-icons 1.9.0 (1.11.3 is available)
++ collections 5.1.12 (5.1.13 is available)
++ dompurify 3.0.6 (3.0.9 is available)
++ error-polyfill 0.1.2 (0.1.3 is available)
++ local-storage 2.0.0
++ near-api-js 2.1.3 (3.0.3 is available)
++ near-social-vm 2.6.0
++ near-social-vm-types 1.0.0
++ prettier 2.7.1 (3.2.5 is available)
++ qrcode.react 3.1.0
++ react 18.2.0
++ react-bootstrap 2.5.0 (2.10.1 is available)
++ react-bootstrap-typeahead 6.1.2 (6.3.2 is available)
++ react-dom 18.2.0
++ react-router-dom 5.2.0 (6.15.0 is available)
++ styled-components 5.3.6 (6.1.8 is available)
+
+devDependencies:
++ @babel/cli 7.15.4 (7.23.9 is available)
++ @babel/core 7.15.5 (7.22.10 is available)
++ @babel/preset-env 7.15.4 (7.22.10 is available)
++ @babel/preset-react 7.14.5 (7.22.5 is available)
++ assert 2.0.0 (2.1.0 is available)
++ babel-loader 8.2.2 (9.1.3 is available)
++ browserify-zlib 0.2.0
++ buffer 6.0.3
++ clean-webpack-plugin 4.0.0
++ copy-webpack-plugin 9.0.1 (12.0.2 is available)
++ cross-env 7.0.3
++ crypto-browserify 3.12.0
++ css-loader 6.2.0 (6.8.1 is available)
++ css-minimizer-webpack-plugin 3.0.2 (5.0.1 is available)
++ html-webpack-plugin 5.3.2 (5.6.0 is available)
++ https-browserify 1.0.0
++ mini-css-extract-plugin 2.2.2 (2.7.6 is available)
++ os-browserify 0.3.0
++ path-browserify 1.0.1
++ postcss-loader 7.0.1 (7.3.3 is available)
++ process 0.11.10
++ raw-loader 4.0.2
++ sass 1.66.1 (1.71.1 is available)
++ sass-loader 13.1.0 (14.1.1 is available)
++ stream-browserify 3.0.0
++ stream-http 3.2.0
++ style-loader 3.2.1 (3.3.3 is available)
++ url 0.11.0 (0.11.3 is available)
++ webpack 5.52.0 (5.89.0 is available)
++ webpack-bundle-analyzer 4.4.2 (4.10.1 is available)
++ webpack-cli 4.8.0 (5.1.4 is available)
++ webpack-dev-server 4.1.0 (5.0.2 is available)
++ webpack-manifest-plugin 5.0.0
++ webpack-merge 5.8.0 (5.9.0 is available)
+
+ WARN  Issues with peer dependencies found
+.
+└─┬ react-router-dom 5.2.0
+  └─┬ react-router 5.2.0
+    └─┬ mini-create-react-context 0.4.1
+      └── ✕ unmet peer react@"^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0": found 18.2.0
+
+The integrity of 2157 files was checked. This might have caused installation to take longer.
+Done in 1m 2.7s
+paytonlee@Whamsibook ~/D/G/bos viewer (master)> pnpm run dev
+
+> frontend@0.18.13 dev /Users/paytonlee/Developer/Github/bos viewer
+> yarn run serve -- --env mode=development
+
+yarn run v1.22.17
+warning From Yarn 1.0 onwards, scripts don't require "--" for options to be forwarded. In a future version, any explicit "--" will be forwarded as-is to the scripts.
+$ webpack serve --env mode=development
+[webpack-cli] Unable to load '@webpack-cli/serve' command
+[webpack-cli] TypeError: options.forEach is not a function
+    at WebpackCLI.makeCommand (/Users/paytonlee/Developer/Github/bos viewer/node_modules/.pnpm/webpack-cli@4.8.0_webpack-bundle-analyzer@4.4.2_webpack-dev-server@4.1.0_webpack@5.52.0/node_modules/webpack-cli/lib/webpack-cli.js:173:21)
+    at ServeCommand.apply (/Users/paytonlee/Developer/Github/bos viewer/node_modules/.pnpm/@webpack-cli+serve@1.7.0_webpack-cli@4.8.0_webpack-dev-server@4.1.0/node_modules/@webpack-cli/serve/lib/index.js:41:19)
+    at loadCommandByName (/Users/paytonlee/Developer/Github/bos viewer/node_modules/.pnpm/webpack-cli@4.8.0_webpack-bundle-analyzer@4.4.2_webpack-dev-server@4.1.0_webpack@5.52.0/node_modules/webpack-cli/lib/webpack-cli.js:907:35)
+    at async Command.<anonymous> (/Users/paytonlee/Developer/Github/bos viewer/node_modules/.pnpm/webpack-cli@4.8.0_webpack-bundle-analyzer@4.4.2_webpack-dev-server@4.1.0_webpack@5.52.0/node_modules/webpack-cli/lib/webpack-cli.js:1483:17)
+    at async Promise.all (index 0)
+    at async WebpackCLI.run (/Users/paytonlee/Developer/Github/bos viewer/node_modules/.pnpm/webpack-cli@4.8.0_webpack-bundle-analyzer@4.4.2_webpack-dev-server@4.1.0_webpack@5.52.0/node_modules/webpack-cli/lib/webpack-cli.js:1521:9)
+    at async runCLI (/Users/paytonlee/Developer/Github/bos viewer/node_modules/.pnpm/webpack-cli@4.8.0_webpack-bundle-analyzer@4.4.2_webpack-dev-server@4.1.0_webpack@5.52.0/node_modules/webpack-cli/lib/bootstrap.js:11:9)
+error Command failed with exit code 2.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+ ELIFECYCLE  Command failed with exit code 2.
+paytonlee@Whamsibook ~/D/G/bos viewer (master) [1]> cursor .
+paytonlee@Whamsibook ~/D/G/bos viewer (master)> 
+  [Restored Mar 5, 2024 at 2:10:30 PM]
+Restored session: Tue Mar  5 14:07:04 PST 2024
+➜  bos viewer git:(master) ✗ open .
+➜  bos viewer git:(master) ✗ cd ..
+➜  Github git clone git@github.com:whamsicore/Dharmabot.git
+Cloning into 'Dharmabot'...
+remote: Enumerating objects: 58, done.
+remote: Counting objects: 100% (58/58), done.
+remote: Compressing objects: 100% (38/38), done.
+remote: Total 58 (delta 15), reused 55 (delta 12), pack-reused 0
+Receiving objects: 100% (58/58), 116.25 KiB | 504.00 KiB/s, done.
+Resolving deltas: 100% (15/15), done.
+➜  Github cd Dhc   
+➜  Github fish
+Welcome to fish, the friendly interactive shell
+Type help for instructions on how to use fish
+paytonlee@Whamsibook ~/D/Github> cd Dharmabot/
+paytonlee@Whamsibook ~/D/G/Dharmabot (master)> cursor .
+paytonlee@Whamsibook ~/D/G/Dharmabot (master)> brew install mplayer
+Running `brew update --auto-update`...
+==> Auto-updated Homebrew!
+Updated 2 taps (homebrew/core and homebrew/cask).
+==> New Formulae
+libsql                      prjtrellis                  scala@3.3                   taskopen                    wstunnel
+==> New Casks
+jan
+
+You have 102 outdated formulae installed.
+
+==> Downloading https://ghcr.io/v2/homebrew/core/mplayer/manifests/1.5_1-1
+####################################################################################################################################### 100.0%
+==> Fetching dependencies for mplayer: imlib2 and libcaca
+==> Downloading https://ghcr.io/v2/homebrew/core/imlib2/manifests/1.12.2
+####################################################################################################################################### 100.0%
+==> Fetching dependencies for imlib2: libpng, freetype, jpeg-turbo, xz, libtiff, libxcb and libx11
+==> Downloading https://ghcr.io/v2/homebrew/core/libpng/manifests/1.6.43
+####################################################################################################################################### 100.0%
+==> Fetching libpng
+==> Downloading https://ghcr.io/v2/homebrew/core/libpng/blobs/sha256:37ae0c13a861618b896194178705949887b13821f4762888d1a624c79d08ab4e
+####################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/freetype/manifests/2.13.2-1
+####################################################################################################################################### 100.0%
+==> Fetching freetype
+==> Downloading https://ghcr.io/v2/homebrew/core/freetype/blobs/sha256:352a82fcc4a51411403697f53703a4f46c92219963344ed66f499688fc036a2c
+####################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/jpeg-turbo/manifests/3.0.1
+####################################################################################################################################### 100.0%
+==> Fetching jpeg-turbo
+==> Downloading https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:01cea0389ed701926bb4141b810a244f9ac57dc43512855019fdf6f0586018a7
+####################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/xz/manifests/5.6.0-1
+####################################################################################################################################### 100.0%
+==> Fetching xz
+==> Downloading https://ghcr.io/v2/homebrew/core/xz/blobs/sha256:fdf1c431c6b921abdc3c1b89f1fa93821599c040707554fc1a17ea8ef9aeaadf
+####################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libtiff/manifests/4.6.0
+####################################################################################################################################### 100.0%
+==> Fetching libtiff
+==> Downloading https://ghcr.io/v2/homebrew/core/libtiff/blobs/sha256:7347c37cf98bec3f956296caee0ecee54e7bfcc7b32d6e2e02b9ae04c80e3ca6
+####################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libxcb/manifests/1.16.1
+####################################################################################################################################### 100.0%
+==> Fetching libxcb
+==> Downloading https://ghcr.io/v2/homebrew/core/libxcb/blobs/sha256:0f89c136dd2b6a64cdb3be0864123298db5bea9f2af7a0fb4382d6a74848055d
+####################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libx11/manifests/1.8.7
+####################################################################################################################################### 100.0%
+==> Fetching libx11
+==> Downloading https://ghcr.io/v2/homebrew/core/libx11/blobs/sha256:60a6a9eff38b882a536a124a18216788fdb20f885e65d011129e57b92eecaec9
+####################################################################################################################################### 100.0%
+==> Fetching imlib2
+==> Downloading https://ghcr.io/v2/homebrew/core/imlib2/blobs/sha256:3a0de7fb20f2d7dc540890183fa9a6018ca4b694dcccf693e91ceaa8c157d821
+####################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libcaca/manifests/0.99b20
+####################################################################################################################################### 100.0%
+==> Fetching libcaca
+==> Downloading https://ghcr.io/v2/homebrew/core/libcaca/blobs/sha256:a0fcaf753907e6dabf7d1a2038cdc95444fddf00f7dafd2b6ca88b7f552336ad
+####################################################################################################################################### 100.0%
+==> Fetching mplayer
+==> Downloading https://ghcr.io/v2/homebrew/core/mplayer/blobs/sha256:af54e0730489194bc2152761cbc244f7028a548c0b8d935ed2fe7e2446a73475
+####################################################################################################################################### 100.0%
+==> Installing dependencies for mplayer: imlib2 and libcaca
+==> Installing mplayer dependency: imlib2
+==> Downloading https://ghcr.io/v2/homebrew/core/imlib2/manifests/1.12.2
+Already downloaded: /Users/paytonlee/Library/Caches/Homebrew/downloads/0287ea4ef573417240a24ecaf1288137efbd09feba8bcd8de9cb4e7798d90061--imlib2-1.12.2.bottle_manifest.json
+==> Installing dependencies for imlib2: libpng, freetype, jpeg-turbo, xz, libtiff, libxcb and libx11
+==> Installing imlib2 dependency: libpng
+==> Downloading https://ghcr.io/v2/homebrew/core/libpng/manifests/1.6.43
+Already downloaded: /Users/paytonlee/Library/Caches/Homebrew/downloads/dd618b09b8d6d4b89203b771528951e5309631cc3afd8dc1236f0e98965f2b67--libpng-1.6.43.bottle_manifest.json
+==> Pouring libpng--1.6.43.ventura.bottle.tar.gz
+🍺  /usr/local/Cellar/libpng/1.6.43: 27 files, 1.3MB
+==> Installing imlib2 dependency: freetype
+==> Downloading https://ghcr.io/v2/homebrew/core/freetype/manifests/2.13.2-1
+Already downloaded: /Users/paytonlee/Library/Caches/Homebrew/downloads/8d6ca45fa8766fb544a5e6dbc76f0a68568656ab4fe1e837704491bb24e3035d--freetype-2.13.2-1.bottle_manifest.json
+==> Pouring freetype--2.13.2.ventura.bottle.1.tar.gz
+🍺  /usr/local/Cellar/freetype/2.13.2: 67 files, 2.5MB
+==> Installing imlib2 dependency: jpeg-turbo
+==> Downloading https://ghcr.io/v2/homebrew/core/jpeg-turbo/manifests/3.0.1
+Already downloaded: /Users/paytonlee/Library/Caches/Homebrew/downloads/abe7baf77a474e831f940214d72e8d72182373e6ea726884670f2d90f47525a7--jpeg-turbo-3.0.1.bottle_manifest.json
+==> Pouring jpeg-turbo--3.0.1.ventura.bottle.tar.gz
+🍺  /usr/local/Cellar/jpeg-turbo/3.0.1: 44 files, 4.8MB
+==> Installing imlib2 dependency: xz
+==> Downloading https://ghcr.io/v2/homebrew/core/xz/manifests/5.6.0-1
+Already downloaded: /Users/paytonlee/Library/Caches/Homebrew/downloads/e9f33a81b51bb70f8ec2b26797ab0647427b08f7484b20a9249903e6ab3eaba9--xz-5.6.0-1.bottle_manifest.json
+==> Pouring xz--5.6.0.ventura.bottle.1.tar.gz
+🍺  /usr/local/Cellar/xz/5.6.0: 166 files, 2.6MB
+==> Installing imlib2 dependency: libtiff
+==> Downloading https://ghcr.io/v2/homebrew/core/libtiff/manifests/4.6.0
+Already downloaded: /Users/paytonlee/Library/Caches/Homebrew/downloads/9c8455a2f6bcea7bf3e3461218fba309141b0b0553b6e1afc5fe64e63caccff3--libtiff-4.6.0.bottle_manifest.json
+==> Pouring libtiff--4.6.0.ventura.bottle.tar.gz
+🍺  /usr/local/Cellar/libtiff/4.6.0: 414 files, 6.6MB
+==> Installing imlib2 dependency: libxcb
+==> Downloading https://ghcr.io/v2/homebrew/core/libxcb/manifests/1.16.1
+Already downloaded: /Users/paytonlee/Library/Caches/Homebrew/downloads/8770f5784e17b45567a2910cdf1ce0b535f85fc18cea509377ca1a6549ad6168--libxcb-1.16.1.bottle_manifest.json
+==> Pouring libxcb--1.16.1.ventura.bottle.tar.gz
+🍺  /usr/local/Cellar/libxcb/1.16.1: 2,462 files, 7MB
+==> Installing imlib2 dependency: libx11
+==> Downloading https://ghcr.io/v2/homebrew/core/libx11/manifests/1.8.7
+Already downloaded: /Users/paytonlee/Library/Caches/Homebrew/downloads/4d15c929e0532c9a908dcb7d562929ecc5dd3a0a0cd4c19cf50683c06282fd7f--libx11-1.8.7.bottle_manifest.json
+==> Pouring libx11--1.8.7.ventura.bottle.tar.gz
+🍺  /usr/local/Cellar/libx11/1.8.7: 1,042 files, 6.9MB
+==> Installing imlib2
+==> Pouring imlib2--1.12.2.ventura.bottle.tar.gz
+🍺  /usr/local/Cellar/imlib2/1.12.2: 67 files, 2.7MB
+==> Installing mplayer dependency: libcaca
+==> Downloading https://ghcr.io/v2/homebrew/core/libcaca/manifests/0.99b20
+Already downloaded: /Users/paytonlee/Library/Caches/Homebrew/downloads/3d1fa6c58091797a13cacfb8d67926d1cb68a5ebdef69a1f1bcdc0ab74a3521b--libcaca-0.99b20.bottle_manifest.json
+==> Pouring libcaca--0.99b20.ventura.bottle.tar.gz
+🍺  /usr/local/Cellar/libcaca/0.99b20: 39 files, 2.3MB
+==> Installing mplayer
+==> Pouring mplayer--1.5_1.ventura.bottle.1.tar.gz
+🍺  /usr/local/Cellar/mplayer/1.5_1: 11 files, 31MB
+==> Running `brew cleanup mplayer`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Upgrading 26 dependents of upgraded formulae:
+Disable this behaviour by setting HOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+aom 3.6.1 -> 3.8.1, cairo 1.16.0_5 -> 1.18.0, cffi 1.15.1 -> 1.16.0_1, fontconfig 2.14.2 -> 2.15.0, ghostscript 10.01.2 -> 10.02.1, harfbuzz 7.3.0_1 -> 8.3.0_1, jasper 4.0.0 -> 4.2.1, jpeg-xl 0.8.2 -> 0.10.1, imagemagick 7.1.1-12 -> 7.1.1-29_1, leptonica 1.82.0_2 -> 1.84.1, libarchive 3.6.2_1 -> 3.7.2, libass 0.17.1 -> 0.17.1_1, ffmpeg 6.0 -> 6.1.1_4, libheif 1.16.2 -> 1.17.6, libraw 0.21.1 -> 0.21.2, libxext 1.3.5 -> 1.3.6, little-cms2 2.15 -> 2.16, openjpeg 2.5.0_1 -> 2.5.2, pango 1.50.14 -> 1.52.0, pycparser 2.21 -> 2.21_1, magic-wormhole 0.12.0_8 -> 0.13.0_2, python@3.10 3.10.12_1 -> 3.10.13_2, python@3.11 3.11.4_1 -> 3.11.8, python@3.9 3.9.17_1 -> 3.9.18_2, tesseract 5.3.1_1 -> 5.3.4_1, webp 1.3.1 -> 1.3.2
+==> Downloading https://ghcr.io/v2/homebrew/core/libarchive/manifests/3.7.2
+####################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/fontconfig/manifests/2.15.0
+####################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libxext/manifests/1.3.6
+####################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/cairo/manifests/1.18.0
+####################################################################################################################################### 100.0%
+==> Fetching dependencies for cairo: gettext and glib
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/manifests/0.22.5
+####################################################################################################################################### 100.0%
+==> Fetching gettext
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/blobs/sha256:1a35820de97aa8d93019d64f7add5443bcf1c14f05bd249e670e7ca0f0fc6b2a
+####################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/glib/manifests/2.78.4
+####################################################################################################################################### 100.0%
+==> Fetching glib
+==> Downloading https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:168dfba4d0446a472f517edd8c54e6b5f79abf831160c03455649b7fb0ef219f
+####################################################################################################################################### 100.0%
+==> Fetching cairo
+==> Downloading https://ghcr.io/v2/homebrew/core/cairo/blobs/sha256:53fa7ded83d0f45fd7c8c25fedb970f1084bc4861f10988f36c2f2cfd6064552
+####################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/pycparser/manifests/2.21_1-1
+####################################################################################################################################### 100.0%
+==> Fetching pycparser
+==> Downloading https://ghcr.io/v2/homebrew/core/pycparser/blobs/sha256:06cd18b14c1c0a8a15b70f7bc46870f12d9f378c6832deadc7b92c43d2e3d7e8
+####################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/cffi/manifests/1.16.0_1-1
+####################################################################################################################################### 100.0%
+==> Fetching dependencies for cffi: python-setuptools
+==> Downloading https://ghcr.io/v2/homebrew/core/python-setuptools/manifests/69.1.1
+####################################################################################################################################### 100.0%
+==> Fetching python-setuptools
+==> Downloading https://ghcr.io/v2/homebrew/core/python-setuptools/blobs/sha256:dc6a3b104b2084770217060fb7a326d7059f05b103be4f03604d9b9883ea7e
+####################################################################################################################################### 100.0%
+==> Fetching cffi
+==> Downloading https://ghcr.io/v2/homebrew/core/cffi/blobs/sha256:0bd893c328706682088abca867d52c40b8a9e162e65c5f067647cf3fe4171821
+####################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/little-cms2/manifests/2.16
+####################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openjpeg/manifests/2.5.2
+####################################################################################################################################### 100.0%
+==> Fetching dependencies for openjpeg: little-cms2
+==> Downloading https://ghcr.io/v2/homebrew/core/little-cms2/manifests/2.16
+Already downloaded: /Users/paytonlee/Library/Caches/Homebrew/downloads/c4e2b31b0daade62da1f3c2e57d69f74987bac35310011b87220145fa60b3558--little-cms2-2.16.bottle_manifest.json
+==> Fetching little-cms2
+==> Downloading https://ghcr.io/v2/homebrew/core/little-cms2/blobs/sha256:1c2e7ed787c6ff05b52bf3d1f6e27047e390f609af8a2dcfbb5904cdee8a0fff
+####################################################################################################################################### 100.0%
+==> Fetching openjpeg
+==> Downloading https://ghcr.io/v2/homebrew/core/openjpeg/blobs/sha256:02d67cf70fb174e35ce003e3914b0c867ce8b5f0aafde47eb34d24edd4e5443a
+####################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/ghostscript/manifests/10.02.1
+####################################################################################################################################### 100.0%
+==> Fetching dependencies for ghostscript: jbig2dec
+==> Downloading https://ghcr.io/v2/homebrew/core/jbig2dec/manifests/0.20
+####################################################################################################################################### 100.0%
+==> Fetching jbig2dec
+==> Downloading https://ghcr.io/v2/homebrew/core/jbig2dec/blobs/sha256:daab35fae8429496d00b301717837f656c4e166a3f384d8ccc0a2e1ae69f6c30
+####################################################################################################################################### 100.0%
+==> Fetching ghostscript
+==> Downloading https://ghcr.io/v2/homebrew/core/ghostscript/blobs/sha256:1bd495710c4e3dd8c82910da392b31bb62031c0367ca33b833a190911bd4cde9
+####################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/harfbuzz/manifests/8.3.0_1
+####################################################################################################################################### 100.0%
+==> Fetching dependencies for harfbuzz: fontconfig, libxext and icu4c
+==> Downloading https://ghcr.io/v2/homebrew/core/fontconfig/manifests/2.15.0
+Already downloaded: /Users/paytonlee/Library/Caches/Homebrew/downloads/33d176010dc9a105404ed23b6c0f8b853bf3a2df2e274876d412d7229a643320--fontconfig-2.15.0.bottle_manifest.json
+==> Fetching fontconfig
+==> Downloading https://ghcr.io/v2/homebrew/core/fontconfig/blobs/sha256:aedf10972e0376c56d4c130d3dd51e14b61badeb2686b865eb56a2bdfb77b5b5
+####################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libxext/manifests/1.3.6
+Already downloaded: /Users/paytonlee/Library/Caches/Homebrew/downloads/fedb843acbfcf682fb451396914bfc096f9ea2748376d4c43ce2af7ce1b766b7--libxext-1.3.6.bottle_manifest.json
+==> Fetching libxext
+==> Downloading https://ghcr.io/v2/homebrew/core/libxext/blobs/sha256:5adc7a81fe4a19ce37d33850009bd3154f6723a501c932c572d43389d2399657
+####################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/icu4c/manifests/74.2
+####################################################################################################################################### 100.0%
+==> Fetching icu4c
+==> Downloading https://ghcr.io/v2/homebrew/core/icu4c/blobs/sha256:7c966c530b3e01f87be0c46e8969e1801fd7c0d9ad76a0736a6c7767cc87da94
+####################################################################################################################################### 100.0%
+==> Fetching harfbuzz
+==> Downloading https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:a8fc4a3925af87f8299aa77c556b3dbce38cbd975975a6fda55a8107374f5de3
+####################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/jasper/manifests/4.2.1
+####################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/webp/manifests/1.3.2
+####################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/jpeg-xl/manifests/0.10.1
+####################################################################################################################################### 100.0%
+==> Fetching dependencies for jpeg-xl: brotli, highway, imath, openexr and webp
+==> Downloading https://ghcr.io/v2/homebrew/core/brotli/manifests/1.1.0-1
+####################################################################################################################################### 100.0%
+==> Fetching brotli
+==> Downloading https://ghcr.io/v2/homebrew/core/brotli/blobs/sha256:8102401653fe365896171eac88f20eefa5295ec699555af7275efe144f5e877d
+####################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/highway/manifests/1.1.0
+####################################################################################################################################### 100.0%
+==> Fetching highway
+==> Downloading https://ghcr.io/v2/homebrew/core/highway/blobs/sha256:359deb4c23e5131ae22798e22bae009b3e185aaca228c3ebd112683e42c99bd5
+####################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/imath/manifests/3.1.11
+####################################################################################################################################### 100.0%
+==> Fetching imath
+==> Downloading https://ghcr.io/v2/homebrew/core/imath/blobs/sha256:9e92fa7fa7f2803cfa73838d963fab399c0e88012fdde0a5fd32c7cbff089b37
+####################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openexr/manifests/3.2.2
+####################################################################################################################################### 100.0%
+==> Fetching openexr
+==> Downloading https://ghcr.io/v2/homebrew/core/openexr/blobs/sha256:ca90562b3cc6fb315edd0b282aa0628a89683f52c01a9270775a42ab9ec44b3e
+#####                                                                                                                                     4.2%Error: SIGTERM
+Please report this issue:
+  https://docs.brew.sh/Troubleshooting
+/usr/local/Homebrew/Library/Homebrew/system_command.rb:261:in `join'
+/usr/local/Homebrew/Library/Homebrew/system_command.rb:261:in `each_output_line'
+/usr/local/Homebrew/Library/Homebrew/system_command.rb:45:in `run!'
+/usr/local/Homebrew/Library/Homebrew/system_command.rb:32:in `run'
+/usr/local/Homebrew/Library/Homebrew/system_command.rb:20:in `system_command'
+/usr/local/Homebrew/Library/Homebrew/utils/curl.rb:142:in `curl_with_workarounds'
+/usr/local/Homebrew/Library/Homebrew/utils/curl.rb:178:in `curl'
+/usr/local/Homebrew/Library/Homebrew/download_strategy.rb:601:in `curl'
+/usr/local/Homebrew/Library/Homebrew/utils/curl.rb:213:in `curl_download'
+/usr/local/Homebrew/Library/Homebrew/download_strategy.rb:562:in `_curl_download'
+/usr/local/Homebrew/Library/Homebrew/download_strategy.rb:558:in `_fetch'
+/usr/local/Homebrew/Library/Homebrew/download_strategy.rb:445:in `fetch'
+/usr/local/Homebrew/Library/Homebrew/downloadable.rb:87:in `fetch'
+/usr/local/Homebrew/Library/Homebrew/resource.rb:148:in `fetch'
+/usr/local/Homebrew/Library/Homebrew/software_spec.rb:369:in `fetch'
+/usr/local/Homebrew/Library/Homebrew/formula_installer.rb:1237:in `fetch'
+/usr/local/Homebrew/Library/Homebrew/formula_installer.rb:697:in `fetch_dependency'
+/usr/local/Homebrew/Library/Homebrew/formula_installer.rb:1190:in `block in fetch_dependencies'
+/usr/local/Homebrew/Library/Homebrew/formula_installer.rb:1190:in `each'
+/usr/local/Homebrew/Library/Homebrew/formula_installer.rb:1190:in `fetch_dependencies'
+/usr/local/Homebrew/Library/Homebrew/formula_installer.rb:1223:in `fetch'
+/usr/local/Homebrew/Library/Homebrew/upgrade.rb:107:in `block in upgrade_formulae'
+/usr/local/Homebrew/Library/Homebrew/upgrade.rb:55:in `each'
+/usr/local/Homebrew/Library/Homebrew/upgrade.rb:55:in `filter_map'
+/usr/local/Homebrew/Library/Homebrew/upgrade.rb:55:in `upgrade_formulae'
+/usr/local/Homebrew/Library/Homebrew/upgrade.rb:367:in `check_installed_dependents'
+/usr/local/Homebrew/Library/Homebrew/cmd/install.rb:320:in `install'
+/usr/local/Homebrew/Library/Homebrew/brew.rb:86:in `<main>'
+paytonlee@Whamsibook ~/D/G/Dharmabot (master) [1]> mplayer --version 
+Unknown option on the command line: --version
+Error parsing option on the command line: --version
+MPlayer 1.5-14.0.0 (C) 2000-2022 MPlayer Team
+paytonlee@Whamsibook ~/D/G/Dharmabot (master) [1]> mplayer -v
+MPlayer 1.5-14.0.0 (C) 2000-2022 MPlayer Team
+CPU vendor name: GenuineIntel  max cpuid level: 7
+CPU: VirtualApple @ 2.50GHz (Family: 6, Model: 44, Stepping: 0)
+extended cpuid-level: 7
+extended cache-info: 536903744
+Detected cache-line size is 64 bytes
+CPUflags:  MMX: 1 MMX2: 1 3DNow: 0 3DNowExt: 0 SSE: 1 SSE2: 1 SSE3: 1 SSSE3: 1 SSE4: 1 SSE4.2: 1 AVX: 0
+Compiled for x86 CPU with extensions: MMX MMX2 SSE SSE2 SSE3 SSSE3 SSE4 SSE4.2 AVX CMOV
+get_path('codecs.conf') -> '/Users/paytonlee/.mplayer/codecs.conf'
+Reading optional codecs config file /Users/paytonlee/.mplayer/codecs.conf: No such file or directory
+Reading optional codecs config file /usr/local/Cellar/mplayer/1.5_1/etc/mplayer/codecs.conf: No such file or directory
+Using built-in default codecs.conf.
+init_freetype
+Using SSE2 Optimized OnScreenDisplay
+get_path('fonts') -> '/Users/paytonlee/.mplayer/fonts'
+Usage:   mplayer [options] [url|path/]filename
+
+Basic options: (complete list in the man page)
+ -vo <drv>        select video output driver ('-vo help' for a list)
+ -ao <drv>        select audio output driver ('-ao help' for a list)
+ vcd://<trackno>  play (S)VCD (Super Video CD) track (raw device, no mount)
+ -alang/-slang    select DVD audio/subtitle language (by 2-char country code)
+ -ss <position>   seek to given (seconds or hh:mm:ss) position
+ -nosound         do not play sound
+ -fs              fullscreen playback (or -vm, -zoom, details in the man page)
+ -x <x> -y <y>    set display resolution (for use with -vm or -zoom)
+ -sub <file>      specify subtitle file to use (also see -subfps, -subdelay)
+ -playlist <file> specify playlist file
+ -vid x -aid y    select video (x) and audio (y) stream to play
+ -fps x -srate y  change video (x fps) and audio (y Hz) rate
+ -pp <quality>    enable postprocessing filter (details in the man page)
+ -framedrop       enable frame dropping (for slow machines)
+
+Basic keys: (complete list in the man page, also check input.conf)
+ <-  or  ->       seek backward/forward 10 seconds
+ down or up       seek backward/forward  1 minute
+ pgdown or pgup   seek backward/forward 10 minutes
+ < or >           step backward/forward in playlist
+ p or SPACE       pause movie (press any key to continue)
+ q or ESC         stop playing and quit program
+ + or -           adjust audio delay by +/- 0.1 second
+ o                cycle OSD mode:  none / seekbar / seekbar + timer
+ * or /           increase or decrease PCM volume
+ x or z           adjust subtitle delay by +/- 0.1 second
+ r or t           adjust subtitle position up/down, also see -vf expand
+
+ * * * SEE THE MAN PAGE FOR DETAILS, FURTHER (ADVANCED) OPTIONS AND KEYS * * *
+
+paytonlee@Whamsibook ~/D/G/Dharmabot (master)> /usr/local/bin/mplayer
+MPlayer 1.5-14.0.0 (C) 2000-2022 MPlayer Team
+Usage:   mplayer [options] [url|path/]filename
+
+Basic options: (complete list in the man page)
+ -vo <drv>        select video output driver ('-vo help' for a list)
+ -ao <drv>        select audio output driver ('-ao help' for a list)
+ vcd://<trackno>  play (S)VCD (Super Video CD) track (raw device, no mount)
+ -alang/-slang    select DVD audio/subtitle language (by 2-char country code)
+ -ss <position>   seek to given (seconds or hh:mm:ss) position
+ -nosound         do not play sound
+ -fs              fullscreen playback (or -vm, -zoom, details in the man page)
+ -x <x> -y <y>    set display resolution (for use with -vm or -zoom)
+ -sub <file>      specify subtitle file to use (also see -subfps, -subdelay)
+ -playlist <file> specify playlist file
+ -vid x -aid y    select video (x) and audio (y) stream to play
+ -fps x -srate y  change video (x fps) and audio (y Hz) rate
+ -pp <quality>    enable postprocessing filter (details in the man page)
+ -framedrop       enable frame dropping (for slow machines)
+
+Basic keys: (complete list in the man page, also check input.conf)
+ <-  or  ->       seek backward/forward 10 seconds
+ down or up       seek backward/forward  1 minute
+ pgdown or pgup   seek backward/forward 10 minutes
+ < or >           step backward/forward in playlist
+ p or SPACE       pause movie (press any key to continue)
+ q or ESC         stop playing and quit program
+ + or -           adjust audio delay by +/- 0.1 second
+ o                cycle OSD mode:  none / seekbar / seekbar + timer
+ * or /           increase or decrease PCM volume
+ x or z           adjust subtitle delay by +/- 0.1 second
+ r or t           adjust subtitle position up/down, also see -vf expand
+
+ * * * SEE THE MAN PAGE FOR DETAILS, FURTHER (ADVANCED) OPTIONS AND KEYS * * *
+
+paytonlee@Whamsibook ~/D/G/Dharmabot (master)> /usr/local/bin/mplayer -really-quiet -cache 1024 -capture -vc null -vo null -ao pcm:fast:file=~/Desktop/Recording. -af volume=10^C
+paytonlee@Whamsibook ~/D/G/Dharmabot (master)> mplayer -ao pcm:fast:waveheader:file=output-mplayer.wav \
+                                                       -af resample=22050,pan=1:0.5:0.5 \
+                                                       -vo null -vc null \
+                                                       -ss 60 -endpos $fragment_length \
+                                                       $input_file^C
+paytonlee@Whamsibook ~/D/G/Dharmabot (master)> sox --help
+sox:      SoX v
+
+Usage summary: [gopts] [[fopts] infile]... [fopts] outfile [effect [effopt]]...
+
+SPECIAL FILENAMES (infile, outfile):
+-                        Pipe/redirect input/output (stdin/stdout); may need -t
+-d, --default-device     Use the default audio device (where available)
+-n, --null               Use the `null' file handler; e.g. with synth effect
+-p, --sox-pipe           Alias for `-t sox -'
+
+SPECIAL FILENAMES (infile only):
+"|program [options] ..." Pipe input from external program (where supported)
+http://server/file       Use the given URL as input file (where supported)
+
+GLOBAL OPTIONS (gopts) (can be specified at any point before the first effect):
+--buffer BYTES           Set the size of all processing buffers (default 8192)
+--clobber                Don't prompt to overwrite output file (default)
+--combine concatenate    Concatenate all input files (default for sox, rec)
+--combine sequence       Sequence all input files (default for play)
+-D, --no-dither          Don't dither automatically
+--dft-min NUM            Minimum size (log2) for DFT processing (default 10)
+--effects-file FILENAME  File containing effects and options
+-G, --guard              Use temporary files to guard against clipping
+-h, --help               Display version number and usage information
+--help-effect NAME       Show usage of effect NAME, or NAME=all for all
+--help-format NAME       Show info on format NAME, or NAME=all for all
+--i, --info              Behave as soxi(1)
+--input-buffer BYTES     Override the input buffer size (default: as --buffer)
+--no-clobber             Prompt to overwrite output file
+-m, --combine mix        Mix multiple input files (instead of concatenating)
+--combine mix-power      Mix to equal power (instead of concatenating)
+-M, --combine merge      Merge multiple input files (instead of concatenating)
+--norm                   Guard (see --guard) & normalise
+--play-rate-arg ARG      Default `rate' argument for auto-resample with `play'
+--plot gnuplot|octave    Generate script to plot response of filter effect
+-q, --no-show-progress   Run in quiet mode; opposite of -S
+--replay-gain track|album|off  Default: off (sox, rec), track (play)
+-R                       Use default random numbers (same on each run of SoX)
+-S, --show-progress      Display progress while processing audio data
+--single-threaded        Disable parallel effects channels processing
+--temp DIRECTORY         Specify the directory to use for temporary files
+-T, --combine multiply   Multiply samples of corresponding channels from all
+                         input files (instead of concatenating)
+--version                Display version number of SoX and exit
+-V[LEVEL]                Increment or set verbosity level (default 2); levels:
+                           1: failure messages
+                           2: warnings
+                           3: details of processing
+                           4-6: increasing levels of debug messages
+FORMAT OPTIONS (fopts):
+Input file format options need only be supplied for files that are headerless.
+Output files will have the same format as the input file where possible and not
+overridden by any of various means including providing output format options.
+
+-v|--volume FACTOR       Input file volume adjustment factor (real number)
+--ignore-length          Ignore input file length given in header; read to EOF
+-t|--type FILETYPE       File type of audio
+-e|--encoding ENCODING   Set encoding (ENCODING may be one of signed-integer,
+                         unsigned-integer, floating-point, mu-law, a-law,
+                         ima-adpcm, ms-adpcm, gsm-full-rate)
+-b|--bits BITS           Encoded sample size in bits
+-N|--reverse-nibbles     Encoded nibble-order
+-X|--reverse-bits        Encoded bit-order
+--endian little|big|swap Encoded byte-order; swap means opposite to default
+-L/-B/-x                 Short options for the above
+-c|--channels CHANNELS   Number of channels of audio data; e.g. 2 = stereo
+-r|--rate RATE           Sample rate of audio
+-C|--compression FACTOR  Compression factor for output format
+--add-comment TEXT       Append output file comment
+--comment TEXT           Specify comment text for the output file
+--comment-file FILENAME  File containing comment text for the output file
+--no-glob                Don't `glob' wildcard match the following filename
+
+AUDIO FILE FORMATS: 8svx aif aifc aiff aiffc al amb au avr caf cdda cdr cvs cvsd cvu dat dvms f32 f4 f64 f8 fap flac fssd gsm gsrt hcom htk ima ircam la lpc lpc10 lu mat mat4 mat5 maud mp2 mp3 nist ogg opus paf prc pvf raw s1 s16 s2 s24 s3 s32 s4 s8 sb sd2 sds sf sl sln smp snd sndfile sndr sndt sou sox sph sw txw u1 u16 u2 u24 u3 u32 u4 u8 ub ul uw vms voc vorbis vox w64 wav wavpcm wve xa xi
+PLAYLIST FORMATS: m3u pls
+AUDIO DEVICE DRIVERS: coreaudio
+
+EFFECTS: allpass band bandpass bandreject bass bend biquad chorus channels compand contrast dcshift deemph delay dither divide+ downsample earwax echo echos equalizer fade fir firfit+ flanger gain highpass hilbert input# loudness lowpass mcompand noiseprof noisered norm oops output# overdrive pad phaser pitch rate remix repeat reverb reverse riaa silence sinc spectrogram speed splice stat stats stretch swap synth tempo treble tremolo trim upsample vad vol
+  * Deprecated effect    + Experimental effect    # LibSoX-only effect
+EFFECT OPTIONS (effopts): effect dependent; see --help-effect
+paytonlee@Whamsibook ~/D/G/Dharmabot (master)> man sox
+This manpage is not compatible with mandoc(1) and might display incorrectly.
+
+SoX(1)                                                         Sound eXchange                                                         SoX(1)
+
+NAME
+       SoX - Sound eXchange, the Swiss Army knife of audio manipulation
+
+SYNOPSIS
+       sox [global-options] [format-options] infile1
+            [[format-options] infile2] ... [format-options] outfile
+            [effect [effect-options]] ...
+
+       play [global-options] [format-options] infile1
+            [[format-options] infile2] ... [format-options]
+            [effect [effect-options]] ...
+
+       rec [global-options] [format-options] outfile
+            [effect [effect-options]] ...
+
+DESCRIPTION
+   Introduction
+       SoX reads and writes audio files in most popular formats and can optionally apply effects to them. It can combine multiple input
+       sources, synthesise audio, and, on many systems, act as a general purpose audio player or a multi-track audio recorder. It also has
+       limited ability to split the input into multiple output files.
+
+       All SoX functionality is available using just the sox command.  To simplify playing and recording audio, if SoX is invoked as play,
+       the output file is automatically set to be the default sound device, and if invoked as rec, the default sound device is used as an
+       input source.  Additionally, the soxi(1) command provides a convenient way to just query audio file header information.
+
+       The heart of SoX is a library called libSoX.  Those interested in extending SoX or using it in other programs should refer to the
+       libSoX manual page: libsox(3).
+
+       SoX is a command-line audio processing tool, particularly suited to making quick, simple edits and to batch processing.  If you need
+       an interactive, graphical audio editor, use audacity(1).
+
+                                                                *        *        *
+
+       The overall SoX processing chain can be summarised as follows:
+
+                                                     Input(s) → Combiner → Effects → Output(s)
+
+       Note however, that on the SoX command line, the positions of the Output(s) and the Effects are swapped w.r.t. the logical flow just
+       shown.  Note also that whilst options pertaining to files are placed before their respective file name, the opposite is true for
+       effects.  To show how this works in practice, here is a selection of examples of how SoX might be used.  The simple
+          sox recital.au recital.wav
+       translates an audio file in Sun AU format to a Microsoft WAV file, whilst
+          sox recital.au -b 16 recital.wav channels 1 rate 16k fade 3 norm
+       performs the same format translation, but also applies four effects (down-mix to one channel, sample rate change, fade-in, nomalize),
+       and stores the result at a bit-depth of 16.
+          sox -r 16k -e signed -b 8 -c 1 voice-memo.raw voice-memo.wav
+       converts `raw' (a.k.a. `headerless') audio to a self-describing file format,
+          sox slow.aiff fixed.aiff speed 1.027
+       adjusts audio speed,
+          sox short.wav long.wav longer.wav
+       concatenates two audio files, and
+          sox -m music.mp3 voice.wav mixed.flac
+       mixes together two audio files.
+          play "The Moonbeams/Greatest/*.ogg" bass +3
+       plays a collection of audio files whilst applying a bass boosting effect,
+:

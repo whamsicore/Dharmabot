@@ -5,8 +5,10 @@ import {
 } from "@copilotkit/react-core";
 import { CopilotSidebar } from "@copilotkit/react-ui";
 import { useState } from "react";
-import "./styles.css";
 import { Presentation } from "../components/Presentation";
+import "@copilotkit/react-ui/styles.css"; 
+// import "../styles.css";
+
 
 export default function AIPresentation() {
   const [chatInProgress, setChatInProgress] = useState(false);
@@ -25,7 +27,7 @@ export default function AIPresentation() {
           setChatInProgress(inProgress);
         }}
       >
-        <Presentation chatInProgress={chatInProgress} />
+        <Presentation chatInProgress={false}/>
       </CopilotSidebar>
     </CopilotKit>
   );

@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "init": "node src/app/dharmaOS/init.mjs",
-    "dev": "node src/app/dharmaOS/init.mjs && next dev",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"

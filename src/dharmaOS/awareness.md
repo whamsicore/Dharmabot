@@ -66,15 +66,28 @@ Objective: This section of core instructions laid out for Dharmabot to follow
 │   ├── Presentation.tsx
 │   └── Slide.tsx
 ├── dharmaOS
+│   ├── action
+│   │   ├── log.txt
+│   │   └── terminal.mjs
+│   ├── archive
+│   │   ├── archive.mjs
+│   │   └── objectives.md
 │   ├── array.json
 │   ├── awareness.md
+│   ├── command_room.jsx
 │   ├── experience.md
 │   ├── init.mjs
+│   ├── manifesto.md
+│   ├── sense
+│   │   └── vision.mjs
 │   ├── server-actions.json
+│   ├── sox doc
 │   └── tree-structure.txt
 ├── favicon.ico
 ├── globals.css
+├── index.tsx
 ├── layout.tsx
+├── page.tsx
 ├── pages
 │   ├── index.tsx
 │   └── sandbox.tsx
@@ -82,7 +95,7 @@ Objective: This section of core instructions laid out for Dharmabot to follow
 └── utils
     └── globalAudio.tsx
 
-8 directories, 20 files
+11 directories, 30 files
 # Conclusion
 <!-- 
 This metacode is a living document, subject to updates and revisions as our interaction with GPT evolves. It is the foundation upon which efficient and effective communication is built.

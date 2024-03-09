@@ -1,4 +1,7 @@
 "use client";
+// Checklist:
+// - Does it work? No
+
 
 export let globalAudio: any = undefined;
 
